@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1677770757951" clover="3.2.0">
+  <project timestamp="1677770757951" name="All files">
+    <metrics statements="92" coveredstatements="92" conditionals="24" coveredconditionals="24" methods="33" coveredmethods="33" elements="149" coveredelements="149" complexity="0" loc="92" ncloc="92" packages="1" files="4" classes="4"/>
+    <file name="Obstacles.js" path="D:\Github\JavaScript\Mars Rover\Obstacles.js">
+      <metrics statements="12" coveredstatements="12" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
+      <line num="1" count="2" type="stmt"/>
+      <line num="4" count="8" type="stmt"/>
+      <line num="7" count="16" type="stmt"/>
+      <line num="8" count="16" type="stmt"/>
+      <line num="9" count="43" type="cond" truecount="2" falsecount="0"/>
+      <line num="10" count="3" type="stmt"/>
+      <line num="11" count="3" type="stmt"/>
+      <line num="14" count="16" type="stmt"/>
+      <line num="17" count="44" type="cond" truecount="2" falsecount="0"/>
+      <line num="20" count="44" type="cond" truecount="2" falsecount="0"/>
+      <line num="21" count="3" type="stmt"/>
+      <line num="23" count="41" type="stmt"/>
+    </file>
+    <file name="Position.js" path="D:\Github\JavaScript\Mars Rover\Position.js">
+      <metrics statements="31" coveredstatements="31" conditionals="2" coveredconditionals="2" methods="13" coveredmethods="13"/>
+      <line num="1" count="3" type="stmt"/>
+      <line num="3" count="25" type="stmt"/>
+      <line num="4" count="25" type="stmt"/>
+      <line num="5" count="25" type="stmt"/>
+      <line num="6" count="25" type="stmt"/>
+      <line num="7" count="25" type="stmt"/>
+      <line num="8" count="25" type="stmt"/>
+      <line num="9" count="25" type="stmt"/>
+      <line num="10" count="25" type="stmt"/>
+      <line num="13" count="37" type="stmt"/>
+      <line num="16" count="25" type="stmt"/>
+      <line num="17" count="10" type="stmt"/>
+      <line num="19" count="25" type="stmt"/>
+      <line num="20" count="2" type="stmt"/>
+      <line num="22" count="25" type="stmt"/>
+      <line num="23" count="10" type="stmt"/>
+      <line num="25" count="25" type="stmt"/>
+      <line num="26" count="2" type="stmt"/>
+      <line num="30" count="39" type="stmt"/>
+      <line num="31" count="39" type="stmt"/>
+      <line num="34" count="5" type="stmt"/>
+      <line num="35" count="5" type="stmt"/>
+      <line num="38" count="7" type="stmt"/>
+      <line num="39" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="40" count="1" type="stmt"/>
+      <line num="42" count="7" type="stmt"/>
+      <line num="45" count="8" type="stmt"/>
+      <line num="46" count="8" type="stmt"/>
+      <line num="49" count="16" type="stmt"/>
+      <line num="50" count="16" type="stmt"/>
+      <line num="53" count="24" type="stmt"/>
+    </file>
+    <file name="Rover.js" path="D:\Github\JavaScript\Mars Rover\Rover.js">
+      <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
+      <line num="1" count="2" type="stmt"/>
+      <line num="3" count="12" type="stmt"/>
+      <line num="4" count="12" type="stmt"/>
+      <line num="7" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="2" type="stmt"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="11" count="3" type="stmt"/>
+      <line num="12" count="3" type="stmt"/>
+      <line num="16" count="13" type="stmt"/>
+      <line num="19" count="5" type="stmt"/>
+      <line num="22" count="3" type="stmt"/>
+      <line num="25" count="12" type="stmt"/>
+      <line num="28" count="4" type="stmt"/>
+    </file>
+    <file name="RoverTrip.js" path="D:\Github\JavaScript\Mars Rover\RoverTrip.js">
+      <metrics statements="36" coveredstatements="36" conditionals="14" coveredconditionals="14" methods="9" coveredmethods="9"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="5" type="stmt"/>
+      <line num="4" count="5" type="stmt"/>
+      <line num="5" count="5" type="stmt"/>
+      <line num="6" count="5" type="stmt"/>
+      <line num="10" count="5" type="stmt"/>
+      <line num="11" count="11" type="stmt"/>
+      <line num="12" count="11" type="stmt"/>
+      <line num="13" count="11" type="cond" truecount="2" falsecount="0"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="16" count="10" type="stmt"/>
+      <line num="19" count="5" type="stmt"/>
+      <line num="20" count="3" type="stmt"/>
+      <line num="21" count="3" type="stmt"/>
+      <line num="22" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="25" count="2" type="stmt"/>
+      <line num="28" count="5" type="stmt"/>
+      <line num="29" count="4" type="stmt"/>
+      <line num="31" count="5" type="stmt"/>
+      <line num="32" count="2" type="stmt"/>
+      <line num="37" count="23" type="cond" truecount="6" falsecount="0"/>
+      <line num="38" count="21" type="stmt"/>
+      <line num="40" count="2" type="stmt"/>
+      <line num="45" count="21" type="stmt"/>
+      <line num="46" count="21" type="cond" truecount="2" falsecount="0"/>
+      <line num="47" count="20" type="stmt"/>
+      <line num="48" count="20" type="stmt"/>
+      <line num="51" count="1" type="stmt"/>
+      <line num="52" count="1" type="stmt"/>
+      <line num="57" count="3" type="stmt"/>
+      <line num="58" count="3" type="stmt"/>
+      <line num="59" count="18" type="cond" truecount="2" falsecount="0"/>
+      <line num="60" count="16" type="stmt"/>
+      <line num="62" count="2" type="stmt"/>
+      <line num="65" count="3" type="stmt"/>
+    </file>
+  </project>
+</coverage>
