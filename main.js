@@ -15,10 +15,10 @@ const obstaclesData = [[1, 4], [3, 5], [7, 4]]
 const obstacle = new Obstacles(obstaclesData);
 const position = new Position(0, 0, 1, 1);
 const rover = new Rover(position);
-const roverTrip = new RoverTrip(rover , obstacle);
-// const roverTrip = new RoverTripV2(obstacle, rover, 3,6);
+// const roverTrip = new RoverTrip(rover , obstacle);
+const roverTrip = new RoverTripV2(obstacle, rover, 3,6);
 
-roverTrip.beginTrip("FFFLFFFFLFRFFRF");
+roverTrip.beginTrip("FFLFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF");
 // roverTrip.findValidPaths();
 
 //max (x obstc)

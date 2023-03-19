@@ -22,7 +22,6 @@ module.exports = class RoverTripV2 {
         this.possiblePaths = [];
         this.visited = new Map();
         this.tripFunctions = new Map();
-        this.path = "";
         this.fillTripCommandFunctions();
     }
 
