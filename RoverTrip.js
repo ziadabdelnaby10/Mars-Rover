@@ -18,8 +18,8 @@ module.exports = class RoverTrip {
         });
         this.tripFunctions.set("b", () => {
             const newPos = this.rover.moveBackward();
-            let obstecleFound = this.obstacles.onCompareObstacle(newPos.newX, newPos.newY);
-            if (obstecleFound) {
+            let obstacleFound = this.obstacles.onCompareObstacle(newPos.newX, newPos.newY);
+            if (obstacleFound) {
                 this.rover.canMove = false;
             } else {
                 this.rover.setNewPosition(newPos.newX, newPos.newY);
@@ -34,11 +34,7 @@ module.exports = class RoverTrip {
     }
 
     checkCommand(command) {
-        if (command === 'f' || command === 'b' || command === 'l' || command === 'r') {
-            return true;
-        } else {
-            return false;
-        }
+        return command === 'f' || command === 'b' || command === 'l' || command === 'r';
     }
 
     onCommand(command) {
@@ -65,5 +61,3 @@ module.exports = class RoverTrip {
         return this.rover.printResult();
     }
 }
-
-// export default RoverTrip;
